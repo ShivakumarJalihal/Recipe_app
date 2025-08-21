@@ -1,0 +1,8 @@
+# Nodefrontend/node_modules
+frontend/build
+
+# Pythonbackend/__pycache__/
+backend/venv/
+
+
+.vscode/
