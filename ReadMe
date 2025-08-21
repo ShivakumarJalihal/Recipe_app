@@ -1,0 +1,54 @@
+# Recipe App
+
+This is a simple Recipe App built with React (frontend) and FastAPI (backend).
+
+## 🚀 Getting Started
+
+### 1. Clone the project
+If you have the project locally, skip this step.
+
+### 2. Run the Backend (FastAPI)
+1. Open a terminal in the backend folder.
+2. Start the server with:
+   uvicorn main:app --reload
+3. The backend will run on http://127.0.0.1:8000
+
+### 3. Run the Frontend (React)
+1. Open a terminal in the frontend folder.
+2. Install dependencies (only once):
+   npm install
+3. Start the React app:
+   npm start
+4. The frontend will run on http://localhost:3000
+
+## 📂 Project Structure
+
+recipe_app/
+│
+├── backend/        # FastAPI backend
+│   └── main.py
+│
+├── frontend/       # React frontend
+│   ├── public/
+│   └── src/
+│       ├── App.js
+│       ├── App.css
+│       ├── index.js
+│       └── components/ (optional future components)
+
+## ✨ Features
+- Add and view recipes
+- Styled with CSS
+- Backend built with FastAPI
+- Frontend built with React
+
+## 🛠 Tech Stack
+- **Frontend:** React.js, CSS
+- **Backend:** FastAPI, Python
+- **Database:** (SQLite or PostgreSQL if added later)
+
+## 📌 Notes
+- Ensure Python and Node.js are installed.
+- Frontend runs on port 3000, backend runs on port 8000.
+- You may need to configure CORS in FastAPI for API calls from React.
+
